@@ -25,7 +25,7 @@ public class Test extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-		
+		//2
 		response.getWriter().append("Welcome to the Servlet"); 
 		response.getWriter().append("Servlet at:  ").append(request.getContextPath());
 		
